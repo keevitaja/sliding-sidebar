@@ -23,7 +23,7 @@ $(document).ready(function() {
     var overlay = $('[data-sidebar-overlay]');
 
     // add height to content area
-    overlay.parent().css('min-height', '100%');
+    overlay.parent().css('min-height', 'inherit');
 
     // hide sidebar on load
     sidebar.css('margin-left', sidebar.width() * -1 + 'px');
