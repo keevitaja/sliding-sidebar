@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sliding Sidebar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+
+        <aside data-sidebar>
+            <div  class="padding">
+                <a href="#" data-sidebar-button>Hide Sidebar</a>
+            </div>
+        </aside>
+
+        <main>
+            <div class="padding">
+                <a href="#" data-sidebar-button>Show Sidebar</a>
+
+                <p>This is an example of a simple sliding sidebar with jQuery!</p>
+            </div>
+
+            <div class="overlay" data-sidebar-overlay></div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: inherit;
+}
+
+[data-sidebar] {
+    display: none;
+    position: fixed;
+    height: 100%;
+    z-index: 100;
+}
+
+[data-sidebar-overlay] {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    min-height: inherit;
+}
+
+/* Additional styles */
+
+aside {
+    background-color: #ec3c2a;
+}
+
+.overlay {
+    background-color: #d2d2d2;
+}
+
+.padding {
+    padding: 2em;
+}
